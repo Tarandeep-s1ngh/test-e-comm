@@ -1,8 +1,17 @@
+import { Navbar } from "./components";
+import { LandingPageMain } from "./components";
+import { Footer } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO WORLD</h1>
+      <div className="wrapper">
+        <Navbar></Navbar>
+
+        <LandingPageMain></LandingPageMain>
+
+        <Footer></Footer>
+      </div>
     </div>
   );
 }
